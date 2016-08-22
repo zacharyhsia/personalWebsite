@@ -129,6 +129,15 @@ a {
     line-height: 43px;
 }
 
+#news {
+    font-size: 13px;
+}
+
+#downloadBtn {
+    margin:0;
+    float: left;
+    font-size: 17.55px;
+}
 #verticalTab {
     z-index: 1;
     height: 100%;
@@ -2454,7 +2463,7 @@ ul.info-post li {
         margin:0;
     }
     ul.about li span.value {
-        float: none;
+        float: right;
     }
     .text_content {
         font-size: 12px;
