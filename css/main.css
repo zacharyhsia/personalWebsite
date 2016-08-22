@@ -129,8 +129,9 @@ a {
     line-height: 43px;
 }
 
-#news {
+a#news {
     font-size: 13px;
+    line-height: 20px;
 }
 
 #downloadBtn {
@@ -1224,6 +1225,47 @@ ul.about {
 /*--------------------------------------------------
 ---------------------- Resume ----------------------
 ---------------------------------------------------*/
+
+li.eduInfo {
+    border-bottom-color: rgb(230, 230, 230);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+i#major
+,#major1
+,#rank
+,#rank1{
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    color: rgb(59, 89, 152);
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    height: 13px;
+    line-height: 13px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-right: 3px;
+    position: relative;
+    text-align: left;
+    top: 1px;
+    width: 13px;
+    zoom: 1;
+}
+
+
+label.eduInfoTitle {
+    margin-right: 10px;
+    box-sizing: border-box;
+    color: rgb(59, 89, 152);
+    font-size: 12px;
+}
+
+span.eduInfoValue {
+    font-size: 12px;
+}
 
 #resume .col-md-6 span.duration {
     float: right;
