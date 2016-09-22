@@ -738,7 +738,7 @@ h2.resp-accordion:hover {
     color: #ffffff;
     text-align: center;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #DDD;
 }
 
@@ -1340,7 +1340,10 @@ span.eduInfoValue {
     left: 0;
     font-size: 11px;
     color: #fff;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
+    text-align: center;
+    width: 30%;
+
 }
 .skillbar-title span {
     display: block;
@@ -1348,6 +1351,7 @@ span.eduInfoValue {
     padding: 0 20px;
     height: 22px;
     line-height: 22px;
+
 }
 .skillbar-bar {
     height: 22px;
@@ -2390,6 +2394,7 @@ ul.info-post li {
 
     .title_content:after {
         width: 155px;
+
     }
 
     ul.about li {

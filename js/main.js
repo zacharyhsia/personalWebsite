@@ -440,9 +440,16 @@ jQuery(document).ready(function($) {
             $(this).find('.skillbar-bar').width(0);
         });
 
+        // var barlength = $('.skillbar').attr('data-percent')
+        // $('.skillbar').each(function() {
+        //     $(this).find('.skillbar-bar').animate({
+        //         width: $(this).attr('data-percent')
+        //     }, 2000);
+        // });
+
         $('.skillbar').each(function() {
             $(this).find('.skillbar-bar').animate({
-                width: $(this).attr('data-percent')
+                width: $(this).attr('data-percent')*0.7+0.3
             }, 2000);
         });
     });
